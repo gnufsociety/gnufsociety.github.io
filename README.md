@@ -1,2 +1,0 @@
-# gnufsociety.github.io
-website
