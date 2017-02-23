@@ -1763,11 +1763,23 @@
 			margin: 0 0 2em 0;
 		}
 
-			.image.centered img {
+		.image.centered img {
 				margin: 0 auto;
 				width: auto;
-			}
-
+		}
+		
+	/* INGRANDIMENTO IMMAGINE SU HOVERING */
+		@keyframes scalaImmagine {
+			from {transform:scale(1,1);}
+			to {transform:scale(2,2);}
+		}
+		
+		#more img:hover {
+			animation-name:scalaImmagine;
+			transform:scale(2,2);
+			animation-duration:1.2s;
+		}
+		
 /* List */
 
 	ul.default {
