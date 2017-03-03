@@ -1,1 +1,1 @@
-This is a doodle of our website.
+Visit gnufsociety.github.io for a doodle of our website.
