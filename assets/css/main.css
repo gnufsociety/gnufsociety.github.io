@@ -69,7 +69,7 @@
 	
 	div.boxversions
 	{
-		height:300px !important; height /**/: 300px;
+		height:500px !important; height /**/: 300px;
 		padding: 4px;
 		border:1px solid #EEE; border-right:0 solid;
 		background:url(gradient.png) repeat-x fixed top left;
@@ -1765,6 +1765,11 @@
 		.image.fit {
 			display: block;
 			width: 100%;
+		}
+		
+		.image.fitsmaller {
+			display: block;
+			width: 70%;
 		}
 
 		.image.featured {
