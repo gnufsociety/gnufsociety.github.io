@@ -57,17 +57,8 @@
 	}
 	
 /* SCROLLBAR */
-
-	div.boxupdates
-	{
-		height:190px !important; height /**/: 200px;
-		padding: 4px;
-		border:1px solid #EEE; border-right:0 solid;
-		background:url(gradient.png) repeat-x fixed top left;
-		overflow:auto
-	}
 	
-	div.boxversions
+	div.box
 	{
 		height:500px !important; height /**/: 500px;
 		padding: 4px;
